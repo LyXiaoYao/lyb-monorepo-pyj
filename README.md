@@ -1,5 +1,13 @@
 # lyb-monorepo-pyj
 
-## init
+lerna + pnpm monorepo 项目架构搭建
 
-## init2
+## lerna
+
+## packages
+
+## vuepress
+
+## https
+
+## http
