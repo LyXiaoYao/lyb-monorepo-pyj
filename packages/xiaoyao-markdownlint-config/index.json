@@ -28,6 +28,8 @@
       "HTTPS",
       "https",
       "http",
+      "test",
+      "TEST",
       "WebSocket",
       "ECMAScript",
       "ECMAScript 2015",

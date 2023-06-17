@@ -11,7 +11,7 @@
     "init": "pnpm install",
     "clean": "lerna clean && rm -rf node_modules",
     "build": "lerna run build --stream",
-    "doc:dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "doc:dev": "vuepress dev docs",
     "doc:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
     "lint": "markdownlint README.md",
@@ -22,6 +22,7 @@
   ],
   "author": "LyXiaoYao",
   "devDependencies": {
+    "husky": "^8.0.3",
     "lerna": "^6.6.2",
     "markdownlint": "^0.29.0",
     "vue-template-compiler": "^2.7.14",
