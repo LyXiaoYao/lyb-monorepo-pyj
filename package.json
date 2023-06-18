@@ -15,7 +15,8 @@
     "doc:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
     "lint": "markdownlint README.md",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "publish": "lerna publish"
   },
   "keywords": [
     "monorepo"
