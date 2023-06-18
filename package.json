@@ -22,6 +22,7 @@
   ],
   "author": "LyXiaoYao",
   "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
     "husky": "^8.0.3",
     "lerna": "^6.6.2",
     "markdownlint": "^0.29.0",
@@ -30,5 +31,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "4.5.0"
   }
 }

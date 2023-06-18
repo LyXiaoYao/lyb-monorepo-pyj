@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/LyXiaoYao/lyb-monorepo-pyj/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "4.5.0"
   }
 }
