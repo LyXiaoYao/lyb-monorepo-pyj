@@ -7,5 +7,9 @@
 ```
 const xiaoyaoCommitlintConfig = require('xiaoyao-commitlint-config');
 
+
+
 // TODO: DEMONSTRATE API
 ```
+
+## publish
