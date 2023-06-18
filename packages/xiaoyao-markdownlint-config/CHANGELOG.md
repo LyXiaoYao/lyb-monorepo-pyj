@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/LyXiaoYao/lyb-monorepo-pyj/compare/v0.1.1...v0.1.2) (2023-06-18)
+
+
+### Bug Fixes
+
+* publishconfig设置access为public ([7b3f688](https://github.com/LyXiaoYao/lyb-monorepo-pyj/commit/7b3f688fec80307239eac117e96c53d4489a4f28))
+
+
+
+
+
 # [0.1.0](https://github.com/LyXiaoYao/lyb-monorepo-pyj/compare/v0.0.5...v0.1.0) (2023-06-18)
 
 
