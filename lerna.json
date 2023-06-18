@@ -1,7 +1,9 @@
 {
   "useWorkspaces": true,
-  "version": "0.0.0",
-  "packages": ["packages/*"],
+  "version": "0.0.1",
+  "packages": [
+    "packages/*"
+  ],
   "command": {
     "publish": {
       "npmClient": "npm",
