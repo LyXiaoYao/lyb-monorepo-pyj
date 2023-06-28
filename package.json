@@ -10,6 +10,7 @@
     "prepare": "husky install",
     "init": "pnpm install",
     "clean": "lerna clean && rm -rf node_modules",
+    "clean:cache":"npm cache clean --force",
     "build": "lerna run build --stream",
     "doc:dev": "vuepress dev docs",
     "doc:build": "vuepress build docs",
