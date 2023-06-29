@@ -19,7 +19,8 @@
   },
   "scripts": {
     "lint":"eslint ./",
-    "test": "mocha ./__tests__/*.test.js --timeout 5000"
+    "test": "mocha ./__tests__/*.test.js --timeout 5000",
+    "print-config": "eslint --print-config ./index.js > ./print-config.json"
   },
   "bugs": {
     "url": "https://github.com/LyXiaoYao/lyb-monorepo-pyj/issues"
