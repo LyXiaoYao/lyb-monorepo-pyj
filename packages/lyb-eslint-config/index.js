@@ -3,10 +3,10 @@ module.exports = {
     './rules/base/best-practices',
     './rules/base/possible-errors',
     './rules/base/style',
-    './rules/base/varibles',
+    './rules/base/variables',
     './rules/base/es6',
     './rules/base/strict',
-    './rules/imports'
+    './rules/imports',
   ].map(require.resolve),
   parser: '@babel/eslint-parser',
   parserOptions: {
@@ -16,8 +16,8 @@ module.exports = {
     ecmaFeatures: {
       globalReturn: false,
       impiledStrict: true,
-      jsx: true
-    }
+      jsx: true,
+    },
   },
-  root: true
-}
+  root: true,
+};

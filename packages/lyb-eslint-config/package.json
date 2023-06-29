@@ -18,7 +18,8 @@
     "url": "git+https://github.com/LyXiaoYao/lyb-monorepo-pyj.git"
   },
   "scripts": {
-    "test": "jest"
+    "lint":"eslint ./",
+    "test": "mocha ./__tests__/*.test.js --timeout 5000"
   },
   "bugs": {
     "url": "https://github.com/LyXiaoYao/lyb-monorepo-pyj/issues"
