@@ -1,5 +1,5 @@
 module.exports = {
-  defaultSeverity: 'warning',
+  defaultSeverity: 'error',
   plugins: ['stylelint-scss'],
   rules: {
     /**

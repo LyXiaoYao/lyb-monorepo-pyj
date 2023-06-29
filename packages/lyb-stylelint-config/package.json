@@ -18,16 +18,19 @@
     "url": "git+https://github.com/LyXiaoYao/lyb-monorepo-pyj.git"
   },
   "scripts": {
-    "test": "node ./__tests__/lyb-stylelint-config.test.js"
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/LyXiaoYao/lyb-monorepo-pyj/issues"
   },
-  "dependencies": {
-    "stylelint-scss": "^5.0.1"
-  },
   "devDependencies": {
     "jest": "^29.5.0",
-    "stylelint": "^15.9.0"
+    "stylelint": "^15.9.0",
+    "stylelint-scss": "^5.0.1"
+  },
+  "config":{
+    "jest":{
+      "silent": false
+    }
   }
 }
